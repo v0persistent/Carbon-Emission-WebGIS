@@ -64,6 +64,7 @@
     - 城市名称归一化匹配（解决跨数据集命名不一致问题）
 
 ## 项目结构
+```
 vue-ol-map1/
 ├── vue-ol-map-js/              # Vue 前端
 │   └── src/
@@ -103,6 +104,6 @@ vue-ol-map1/
 └── database/                   # 数据库脚本
     ├── init.sql                # 建表 DDL（city, city_emission, app_user）
     └── import_dbjson.js        # db.json → PostgreSQL 导入脚本
-
+```
 
 
