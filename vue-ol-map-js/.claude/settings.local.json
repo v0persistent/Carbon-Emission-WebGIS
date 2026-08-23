@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"import json; data=json.load\\(open\\(''d:/Claude Code/projects/Carbon-Emission-WebGIS-main/vue-ol-map1_6_5/vue-ol-map1/vue-ol-map-js/backend/db.json''\\)\\); print\\(list\\(data.keys\\(\\)\\)\\)\")",
+      "Bash(python -c \"import json; data=json.load\\(open\\(''d:/Claude Code/projects/Carbon-Emission-WebGIS-main/vue-ol-map1_6_5/vue-ol-map1/vue-ol-map-js/backend/db.json''\\)\\); print\\(list\\(data.keys\\(\\)\\)\\)\")",
+      "Bash(docker --version)",
+      "Bash(where psql)",
+      "Bash(docker run -d --name co2-postgres -e POSTGRES_DB=co2_emission -e POSTGRES_USER=co2app -e POSTGRES_PASSWORD=co2pass123 -p 5433:5432 -v \"d:/Claude Code/projects/Carbon-Emission-WebGIS-main/vue-ol-map1_6_5/vue-ol-map1/database/init.sql:/docker-entrypoint-initdb.d/01-init.sql\" postgis/postgis:16-3.4)"
+    ]
+  }
+}
